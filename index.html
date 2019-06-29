@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -133,49 +134,52 @@
             </div>
             <div class="item-text">
                 <h3>Некоторые помещения имеют собственное офисное помещение. При необходимости можно арендовать отдельный офис на территории комплекса.</h3>
-            </div>
-            <div class="items-icons">
-                    <div class="items-icon three columns">
-                        <img src="https://image.flaticon.com/icons/svg/70/70482.svg" alt="">
-                        Высокоскоростной <br>интернет
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="https://image.flaticon.com/icons/svg/711/711172.svg" alt="">
-                        Столовая на територии
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-гараж-96.png" alt="">
-                        Охраняемый <br>паркинг
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-поезд-100.png" alt="">
-                        ЖД тупик в 150<br> метрах
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-грузовая-машина-64.png" alt="">
-                        Несколько поъездных<br> путей для грузового транспорта
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-коробка-128.png" alt="">
-                        Услуги ответственного<br> хранения
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-открыто-24-7-96.png" alt="">
-                        Доступ<br> 24 часа
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-гаражная-дверь-приоткрыта-64.png" alt="">
-                        Автаматезированные<br> ворота
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-склад-64.png" alt="">
-                        Сухие и теплые<br> помещения
-                    </div>
-                    <div class="items-icon three columns">
-                        <img src="./img/Icons/icons8-водопровод-100.png" alt="">
-                        Центральное водоснабжение и<br> канализация
-                    </div>
+                <div class="item-blocc">
+                        <div class="items-icons">
+                                <div class="items-icon three columns">
+                                    <img src="https://image.flaticon.com/icons/svg/70/70482.svg" alt="">
+                                    Высокоскоростной <br>интернет
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="https://image.flaticon.com/icons/svg/711/711172.svg" alt="">
+                                    Столовая на територии
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-гараж-96.png" alt="">
+                                    Охраняемый <br>паркинг
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-поезд-100.png" alt="">
+                                    ЖД тупик в 150<br> метрах
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-грузовая-машина-64.png" alt="">
+                                    Несколько поъездных<br> путей для грузового транспорта
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-коробка-128.png" alt="">
+                                    Услуги ответственного<br> хранения
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-открыто-24-7-96.png" alt="">
+                                    Доступ<br> 24 часа
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-гаражная-дверь-приоткрыта-64.png" alt="">
+                                    Автаматезированные<br> ворота
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-склад-64.png" alt="">
+                                    Сухие и теплые<br> помещения
+                                </div>
+                                <div class="items-icon three columns">
+                                    <img src="./img/Icons/icons8-водопровод-100.png" alt="">
+                                    Центральное водоснабжение и<br> канализация
+                                </div>
+                            </div>
                 </div>
+            </div>
+            
                 <div class="map-block" id='map'>
                     <h3 class="map_title">
                         Местоположение комплекса
@@ -191,6 +195,43 @@
                            target="_blank" class="open_google">Открыть в Google</a>
                     </div>
                 </div>
+                <div id="contact" class='contact'>
+                <div class="contact-inner">
+                    <div class="contact-title">ПРЯМАЯ АРЕНДА ПОМЕЩЕНИЙ</div>
+                    Звоните по телефонам
+                    <div class="contact-bignumbers">
+                        <span>+996 (770) 756 000</span><br />
+
+                        ‭<span>+996 (555) 945 557</span>
+                    </div>
+                </div>
+                <div class="inner-contact">
+                    <div class="contact-title">ИЛИ ОСТАВЬТЕ ЗАЯВКУ, МЫ ПЕРЕЗВОНИМ:</div>
+                    <div class="contact-form">
+
+                        <form action="index.html" name="form" method="post">
+                            <input type="text" name="name" placeholder="Имя" />
+                            <input type="text" name="phone" placeholder="Номер телефона*" required />
+                            <input type="hidden" name="botnone" value="" />
+                            <input type="hidden" name="keymail" value="c73ab04a7cecc70eadef99878bef26b4">
+                            <input type="hidden" name="keytime" value="1559202932">
+                            <input type="submit" class="contact-form-btn" name="submit" value="Отправить" />
+                            <div class="small-text">
+                                Нажимая кнопку отправить, Вы принимаете соглашение на обработку <a
+                                    href="http://xn-----6kcababpmdg7dejtg1axyi.xn--p1ai/soglashenie.php"
+                                    target="_blank">персональных данных</a> </div>
+                        </form>
+                    </div>
+
+                    <span class="bt-tr2">и получите бесплатные<br>арендные каникулы на 10 дней.</span>
+                </div>
+            </div>
         </div>
+
+
+
+
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.js.map"></script>
 </body>
 </html>

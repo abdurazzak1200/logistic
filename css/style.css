@@ -225,6 +225,7 @@ html{
     font-size: 26px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
 }
 
 .items-icons {
@@ -280,9 +281,71 @@ html{
 }
 
 
+.item-blocc {
+    background: #fff;
+    padding: 3rem 0;
+}
+
+.items-icons {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 64px;
+}
+
+.items-icon {
+    min-height: 140px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.items-icon img {
+    max-width: 48px;
+    max-height: 48px;
+    margin: 16px auto;
+    display: block;
+
+}
 
 
 
+.contact {
+    display: flex;
+    justify-content: stretch;
+    background: #fff;
+}
+
+.contact-inner {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.contact-title {
+    margin: 0;
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26.0px;
+    color: #111;
+    line-height: 56.0px;
+    padding: 60px 0 32px;
+}
+
+.inner-contact {
+    width: 40%; 
+}
+
+.contact-bignumbers {
+    margin: 0;
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48.0px;
+    color: #111;
+    line-height: 56.0px;
+    padding: 16px 0 32px;
+}
 
 
 
